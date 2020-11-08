@@ -6,22 +6,18 @@
                 <div class="col-md-4 sm-6">
                     <div class="testimoni-card">
                         <img class="rounded-circle" src="../assets/images/boy.png" alt="boy">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nam facilis et quidem, perferendis quos exercitationem. 
-                            Quas qui neque facilis laboriosam architecto cumque? Nobis quas eveniet ipsa dolorum magnam itaque dolore ab commodi animi, 
-                            temporibus nam accusamus a! Odit vel consequuntur sequi similique, laborum, 
-                            illum libero sed totam error ullam molestiae ipsa in eligendi laudantium deleniti 
-                            </p>
+                        <p class="customer-comment">
+                            Wah, madu nya emang bener bener asli ga diragukan lagi. Walaupun murah tp dapat dipercaya kok. Saya uda beberapa kali membeli dan hasilnya selalu memuaskan. Terimakasih MaduStore. 
+                        </p>
                         <div><b>Ramdhan</b><span> - Pengacara</span></div>
                     </div>
                 </div>
                 <div class="col-md-4 sm-6">
                     <div class="testimoni-card">
                         <img class="rounded-circle" src="../assets/images/girl.png" alt="boy">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nam facilis et quidem, perferendis quos exercitationem. 
-                            Quas qui neque facilis laboriosam architecto cumque? Nobis quas eveniet ipsa dolorum magnam itaque dolore ab commodi animi, 
-                            temporibus nam accusamus a! Odit vel consequuntur sequi similique, laborum, 
-                            illum libero sed totam error ullam molestiae ipsa in eligendi laudantium deleniti 
-                            </p>
+                        <p class="customer-comment">
+                            Mutu madu disini terjamin, saya membeli madu dengan jenis yang sulit ditemukan di Indonesia. Dan juga pelayanan dari admin ramah dan fast respon.
+                        </p>
                         <div><b>Zulaikha</b><span> - Ustadz</span></div>
                     </div>
 
@@ -29,11 +25,9 @@
                 <div class="col-md-4 sm-6">
                     <div class="testimoni-card">
                         <img class="rounded-circle" src="../assets/images/man.png" alt="boy">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nam facilis et quidem, perferendis quos exercitationem. 
-                            Quas qui neque facilis laboriosam architecto cumque? Nobis quas eveniet ipsa dolorum magnam itaque dolore ab commodi animi, 
-                            temporibus nam accusamus a! Odit vel consequuntur sequi similique, laborum, 
-                            illum libero sed totam error ullam molestiae ipsa in eligendi laudantium deleniti 
-                            </p>
+                        <p class="customer-comment">
+                            MaduStore memang terbaik, harga terjangkau, mudah, cepat pengirimannya dan juga pelayanannya terbaik. Saya merekomendasikan MaduStore untuk kalian yg ingin mencari madu dengan kualitas, harga, dan pelayanan yg terbaik!
+                        </p>
                         <div><b>Makmur</b><span> - Pengusaha</span></div>
                     </div>
                 </div>
@@ -74,6 +68,8 @@ export default {
     background: rgba(215, 231, 215, 0.1);  
     box-shadow: 0px 0px 15px lightblue;
     border-radius: 15px;  
+    padding: 20px 0px 60px 0px;
+    height: 90%;
 }
 .testimoni-card img{
     padding: 10px 10px;
@@ -83,5 +79,7 @@ export default {
 .testimoni p{
     color: rgb(83, 79, 79);
 }
-    
+ .customer-comment {
+     padding: 16px 0px;
+ }   
 </style>

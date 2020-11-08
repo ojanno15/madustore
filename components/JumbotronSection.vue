@@ -3,9 +3,9 @@
         <div class="sm text-center mt-5 jumbotron-fluid">
             <!-- <img src="../assets/images/madu3d.webp" alt="" class="card-img image-jumbotron card-columns"> -->
             <div class="title">
-                <h4 class="title-content display-8">Selamat Datang Di Madu Store</h4>
+                <h2 class="title-content">Selamat Datang Di Madu Store</h2>
                 <p class="lead container">
-                    This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
+                    Madu pilihan, terpercaya dan juga memiliki segala jenis macam madu dengan kualitas terjamin. 
                 </p>
                 <a class="btn text-light" href="https://wa.me/6282362574353" target="_blank">Beli Sekarang </a>
             </div>

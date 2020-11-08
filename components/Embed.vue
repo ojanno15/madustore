@@ -2,7 +2,7 @@
     <section class="about" id="about">
         <div class="title-section">
             <h3 class="title-about">Tentang Kami</h3>
-            <p class="about-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In atque suscipit fugiat ea ullam, omnis officiis quas delectus blanditiis nihil doloribus impedit eaque obcaecati labore, velit, provident ipsum consectetur tempore.</p>
+            <p class="about-content">Kami adalah penadah madu dari segala daerah di Indonesia, dengan kualitas yang dapat anda percaya, dan harga yang murah untuk pelanggan kesayangan kami.</p>
         </div>
         <div class="container">
             <div class="row">
@@ -43,7 +43,7 @@ export default {
     width: 100%!important;
 }
 p.about-content {
-    width: 400px;
+    width: 600px;
     margin: auto;
     padding-bottom: 50px;
 }

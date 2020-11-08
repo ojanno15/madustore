@@ -8,21 +8,21 @@
                         <img src="../assets/images/madu kopi.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h3 class="card-title-one">Madu Kopi</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis non repudiandae obcaecati sed molestias,</p>
+                            <p class="card-text">Madu ternak yang dihasilkan dari nektar bunga kopi yang dihisap oleh lebah madu yang digembalakan diarea perkebunan kopi.</p>
                         </div>
                         </div>
                         <div class="card">
                             <img src="../assets/images/madu hutan sumbawa.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h3 class="card-title-two">Madu Hutan Sumbawa</h3>
-                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus ea explicabo magnam nam nesciunt!</p>
+                                <p class="card-text">Madu ini merupakan madu asli hutan Sumbawa, bukan merupakan madu hasil budidaya.</p>
                             </div>
                         </div>
                         <div class="card">
                         <img src="../assets/images/madu kaliandra.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h3 class="card-title-three">Madu Kaliandra</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eos ex numquam accusamus adipisci deserunt</p>
+                            <p class="card-text">Madu yang dihasilkan oleh lebah ternak yang menghisap nektar dari bunga kaliandra dimana wilayah tersebut tumbuh subur bunga kaliandra.</p>
                         </div>
                     </div>
                 </div>

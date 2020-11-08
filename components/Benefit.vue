@@ -12,7 +12,7 @@
         <div class="whyus-two">
             <div class="whyus-content-two">
                 <h3 class="whyus-two-title">Harga Terjangkau dan Terpercaya</h3>
-                <p class="whyus-two-content">Kualitas dari madu kami jangan anda ragukan lagi, dikarenakan kemurnian dan kesempurnaan rasa dan khasiatnya. Sehingga dapat membuat anda merasakan kemurnian dan keaslian madu dari kami tanpa harus ragu.</p>
+                <p class="whyus-two-content">Madu kami tidak hanya dengan kualitas terbaik, dan juga harga terjangkau bagi para pelanggan kesayangan kami.</p>
             </div>
              <img src="../assets/images/undraw_Marketing.png" alt="" class="whyus-two-img">
         </div>
@@ -59,7 +59,7 @@ body {
     margin-top: 40px;
 }
 .whyus-content-one {
-    width: 400px;
+    width: 500px;
     text-align: justify;
 
 }
@@ -78,8 +78,8 @@ body {
     margin-top: 40px;
 }
 .whyus-content-two {
-    width: 400px;
-    text-align: justify;
+    width: 500px;
+    text-align: left;
 
 }
 .whyus-two-img {

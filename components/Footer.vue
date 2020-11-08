@@ -33,6 +33,7 @@
                         <form>
                             <div class="form-group">
                                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="your email">
+                                <button class="form-btn-submit">Submit</button>
                             </div>
                         </form>
                     </div>
@@ -111,6 +112,20 @@ h4{
 }
 .patent p{
     color: #bbb;
+}
+.form-control {
+    border: 1px solid lightblue;
+    width: 120px;
+    display: inline-block!important;
+    border-radius: 20px 0px 0px 20px!important;
+}
+.form-btn-submit {
+    width: 70px;
+    height: 45px;
+    border-radius: 0px 20px 20px 0px!important;
+    background-color: transparent;
+    color: lightblue;
+    border: 2px solid lightblue;
 }
 @media(max-width: 578px) {
     .contact-us, .email-us{

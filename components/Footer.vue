@@ -110,7 +110,6 @@ h4{
     height: 50px;
 }
 .patent p{
-    padding: 12px 0px;
     color: #bbb;
 }
 @media(max-width: 578px) {

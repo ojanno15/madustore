@@ -64,7 +64,7 @@ export default {
                 block: "start",
                 inline: "nearest",
             });
-            // this.hideMenu()
+            this.hideMenu()
         },
         toAboutusElement() {
             this.aboutusElement.scrollIntoView({
@@ -72,7 +72,7 @@ export default {
                 block: "start",
                 inline: "nearest",
             });
-            // this.hideMenu()
+            this.hideMenu()
         },
         toProductElement() {
             this.productElement.scrollIntoView({
@@ -80,7 +80,7 @@ export default {
                 block: "start",
                 inline: "nearest",
             });
-            // this.hideMenu()
+            this.hideMenu()
         },
         toBenefitElement() {
             this.benefitElement.scrollIntoView({
@@ -88,7 +88,7 @@ export default {
                 block: "start",
                 inline: "nearest",
             });
-            // this.hideMenu()  
+            this.hideMenu()  
         },
         toTestimoniElement() {
             this.testimoniElement.scrollIntoView({
@@ -96,7 +96,7 @@ export default {
                 block: "start",
                 inline: "nearest",
             });
-            // this.hideMenu()  
+            this.hideMenu()  
         },
         toContactElement() {
             this.contactElement.scrollIntoView({
@@ -104,7 +104,7 @@ export default {
                 block: "start",
                 inline: "nearest",
             });
-            // this.hideMenu()  
+            this.hideMenu()  
         },
     },
 };

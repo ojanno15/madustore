@@ -46,6 +46,7 @@ body {
   color: black!important;
 }
 .btn {
-    background-color: #19d3da;
+    background-color: #ECBC68;
+    border-radius: 10px!important;
 }
 </style>

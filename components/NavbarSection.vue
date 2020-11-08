@@ -24,7 +24,7 @@
                             Testimoni
                         </a></li>
                         <li class="nav-item"><a class="nav-link text-light mr-4" @click="toContactElement">
-                            Contact
+                            Kontak
                         </a></li>
                     </div>
                 </div>

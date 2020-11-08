@@ -61,10 +61,12 @@ iframe {
     .title-section {
         width: 100%!important;
     }
-}
-@media(max-width: 678px){
     iframe {
         width: 70%!important;
+        height: 100%!important;
+    }
+    .about-content {
+        width: 100%!important;
     }
 }
 </style>

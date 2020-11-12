@@ -61,7 +61,6 @@ export default {
     border: 1px solid lightgray;
     border-radius: 280px 280px 280px 280px;
     box-shadow: 0 0 16px lightgray;
-    cursor: pointer;
 }
 .card-img {
     width: 204px;

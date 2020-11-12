@@ -14,11 +14,11 @@
                         <li class="nav-item"><a class="nav-link mr-4" @click="toAboutElement">
                             Proses Kami
                         </a></li>
-                        <li class="nav-item"><a class="nav-link mr-4" @click="toTestimoniElement">
-                            Testimoni
-                        </a></li>
                         <li class="nav-item"><a class="nav-link mr-4" @click="toProductElement">
                             Product
+                        </a></li>
+                        <li class="nav-item"><a class="nav-link mr-4" @click="toTestimoniElement">
+                            Testimoni
                         </a></li>
                     </div>
                 </div>

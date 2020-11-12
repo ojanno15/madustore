@@ -6,6 +6,7 @@
                 <h3 class="lead-container">
                     Madu sarang adalah madu Murni yang dipanen beserta sarangnya, jadi kandungan didalamnya 100% terjaga 
                 </h3>
+                <br>
                 <p class="lead-container-hadist">
                     "Madu adalah penyembuh bagi segala penyakit dan Al-Qur'an adalah penyembuh terhadap apa yang ada di dalam dada. Maka bagi kalian terdapat dua penyembuhan; Al-Qur'an dan madu." (HR. Ibnu Majah, 3452 dari hadist Ibnu Mas'ud).
                 </p>
@@ -31,7 +32,8 @@ body {
   justify-content: space-around;
   background-image: linear-gradient(white,#FBD38D);
   margin: 0px auto;
-  padding-top: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   /* border-bottom:  2px inset #86d0c1!important; */
   }
 @media (max-width: 768px) {

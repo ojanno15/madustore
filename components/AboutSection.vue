@@ -22,7 +22,7 @@ export default {
 <style>
 .about {
     width: 100%!important;
-    padding-top: 80px;
+    padding-top: 40px;
     margin: 0px auto;
     margin-bottom: 400px!important;
     background-color: #FBD38D;

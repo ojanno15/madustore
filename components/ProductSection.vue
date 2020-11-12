@@ -4,21 +4,21 @@
             <h3 class="card-title">Produk Kami</h3>
                 <div class="container">
                     <div class="card-content row">
-                        <div class="card">
+                        <div class="card-content-middle">
                         <img src="../assets/images/madu2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h3 class="card-title-one">Madu Multiflora</h3>
                             <p class="card-text">Rp120.000-</p>
                         </div>
                         </div>
-                        <div class="card">
+                        <div class="card-content-middle">
                             <img src="../assets/images/madu3.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h3 class="card-title-two">Madu Sarang 500g</h3>
                                 <p class="card-text">Rp60.000-</p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card-content-middle">
                         <img src="../assets/images/madu4.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h3 class="card-title-three">Madu Sarang 250g</h3>
@@ -60,7 +60,7 @@ export default {
     display: flex;
     justify-content: center;
 }
-.card {
+.card-content-middle {
     width: 18rem!important;
     margin: 10px 6px;
     text-align: center;
@@ -70,7 +70,7 @@ export default {
     cursor: pointer;
     
 }
-.card:hover {
+.card-content-middle:hover {
     color: lightgray;
 }
 .card-body {

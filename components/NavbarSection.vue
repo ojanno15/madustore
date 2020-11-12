@@ -20,6 +20,9 @@
                         <li class="nav-item"><a class="nav-link mr-4" @click="toTestimoniElement">
                             Testimoni
                         </a></li>
+                        <li class="nav-item"><a class="nav-link mr-4" @click="toGalleryElement">
+                            Galleri
+                        </a></li>
                     </div>
                 </div>
             </div>
@@ -35,6 +38,7 @@ export default {
             aboutElement: "",
             productElement: "",
             testimoniElement: "",
+            galleryElement: "",
         };
     },
     mounted() {
@@ -42,6 +46,7 @@ export default {
         this.aboutElement = document.getElementById("about");
         this.productElement = document.getElementById("product");
         this.testimoniElement = document.getElementById("testimoni");
+        this.galleryElement = document.getElementById("gallery");
     },
     methods: {
         hideMenu() {
@@ -74,6 +79,14 @@ export default {
         },
         toTestimoniElement() {
             this.testimoniElement.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+                inline: "nearest",
+            });
+            this.hideMenu()
+        },
+        toGalleryElement() {
+            this.galleryElement.scrollIntoView({
                 behavior: "smooth",
                 block: "start",
                 inline: "nearest",

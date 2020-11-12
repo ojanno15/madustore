@@ -5,24 +5,24 @@
                 <div class="container">
                     <div class="card-content row">
                         <div class="card">
-                        <img src="../assets/images/madu1.jpg" class="card-img-top" alt="...">
+                        <img src="../assets/images/madu2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h3 class="card-title-one">Madu Kopi</h3>
-                            <p class="card-text">Madu ternak yang dihasilkan dari nektar bunga kopi yang dihisap oleh lebah madu yang digembalakan diarea perkebunan kopi.</p>
+                            <h3 class="card-title-one">Madu Multiflora</h3>
+                            <p class="card-text">Rp120.000-</p>
                         </div>
                         </div>
                         <div class="card">
-                            <img src="../assets/images/madu2.jpg" class="card-img-top" alt="...">
+                            <img src="../assets/images/madu3.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h3 class="card-title-two">Madu Hutan Sumbawa</h3>
-                                <p class="card-text">Madu ini merupakan madu asli hutan Sumbawa, bukan merupakan madu hasil budidaya.</p>
+                                <h3 class="card-title-two">Madu Sarang 500g</h3>
+                                <p class="card-text">Rp60.000-</p>
                             </div>
                         </div>
                         <div class="card">
-                        <img src="../assets/images/madu3.jpg" class="card-img-top" alt="...">
+                        <img src="../assets/images/madu4.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h3 class="card-title-three">Madu Kaliandra</h3>
-                            <p class="card-text">Madu yang dihasilkan oleh lebah ternak yang menghisap nektar dari bunga kaliandra dimana wilayah tersebut tumbuh subur bunga kaliandra.</p>
+                            <h3 class="card-title-three">Madu Sarang 250g</h3>
+                            <p class="card-text">Rp35.000-</p>
                         </div>
                     </div>
                 </div>
@@ -68,6 +68,10 @@ export default {
     border-radius: 280px 280px 20px 20px;
     box-shadow: 0 2px 6px 0 rgba(0,0,0,.2);
     cursor: pointer;
+    
+}
+.card:hover {
+    color: lightgray;
 }
 .card-body {
     background-color: snow;
@@ -76,6 +80,10 @@ export default {
 .card-title {
     height: 120px;
 }
+.card-text {
+    font-size: 15px;
+    font-weight: 700;
+}
 .card-img-top {
     width: 250px;
     height: 260px;
@@ -83,7 +91,7 @@ export default {
     margin: 0px auto;
 }
 .card-title-one, .card-title-two, .card-title-three {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
 }
 @media(max-width: 678px){

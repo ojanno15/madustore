@@ -36,6 +36,10 @@ body {
   padding-bottom: 60px;
   /* border-bottom:  2px inset #86d0c1!important; */
   }
+.title-content {
+    font-weight: 800;
+}
+
 @media (max-width: 768px) {
     .font-weight-bold   {
         font-size: 36px;
@@ -48,9 +52,11 @@ body {
     background-color:#f5cd79;
     border-radius: 10px!important;
     margin-top: 20px;
+    box-shadow: 3px 3px 3px #FBD38D;
 }
 .btn:hover {
-    color: grey!important;
+    color: snow!important;
+    background-color: #FBD38D;
 }
 @media(min-width: 678px){
     .title {

@@ -1,7 +1,7 @@
 <template>
     <section class="about" id="about">
         <div class="title-section">
-            <h3 class="title-about">Proses Panen Omah Madu</h3>
+            <h3 class="title-about">Proses Panen Madu Kami</h3>
         </div>
         <div class="container">
             <div class="row">

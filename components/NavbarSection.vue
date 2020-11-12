@@ -93,6 +93,9 @@ export default {
     margin: 0px auto;
     box-shadow: 0 0 16px lightgray;
 }
+.navbar-brand {
+    text-shadow: 1px 1px#FBD38D;
+}
 .navigation-bar {
     display: flex;
     justify-content: space-around;
@@ -103,11 +106,9 @@ export default {
 .navbar-dark .navbar-nav .nav-link {
     cursor: pointer!important;
     color: #495057;
+    text-shadow: 1px 1px#FBD38D;
 }
-.navbar-dark .navbar-brand:hover {
-    color: lightgray;
-}
-.navbar-dark .navbar-nav .nav-link:hover {
+/* .navbar-dark .navbar-nav .nav-link:hover {
     color: lightgrey;
-}
+} */
 </style>

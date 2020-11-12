@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <section class="footer" id="contact">
+        <!-- <section class="footer" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-sm-6 about-us">
@@ -39,7 +39,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section class="patent">
             <p>Copyright ©2020 madustore.id</p>
         </section>
@@ -68,7 +68,6 @@ export default {
     background-color: #243246;
     color: #bbb;
     padding: 70px 0px;
-
 }
 .footer .about-us, .contact-us, .email-us{
     text-align: center;
@@ -106,12 +105,15 @@ h4{
 }
 .patent{
     /* border-top: 1px solid #bbb; */
-    background-color: #243246;
+    background-color: snow;
     text-align: center;
     height: 50px;
+    width: 100%!important;
+    margin: 0px auto;
+    box-shadow: 0 0 16px lightgray;
 }
 .patent p{
-    color: #bbb;
+    color: grey;
 }
 .form-control {
     border: 1px solid lightblue;

@@ -55,13 +55,14 @@ export default {
     width: 210px!important;
     text-align: center;
     border: 1px solid lightgray;
-    border-radius: 280px 280px 280px 280px;
+    border-radius: 50px;
     box-shadow: 0 0 16px lightgray;
+    margin: 10px;
 }
 .card-img {
     width: 204px;
     height: 200px;
-    border-radius: 300px;
+    border-radius: 50px;
     margin: 0px auto;
     object-fit: cover;
 }
@@ -73,9 +74,10 @@ export default {
     .card {
         width: 210px!important;
         text-align: center;
+        border-radius: 50px;
         border: 1px solid lightgray;
-        border-radius: 280px 280px 280px 280px;
         box-shadow: 0 0 16px lightgray;
+        margin: 10px;
     }
 }
 </style>

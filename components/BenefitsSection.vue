@@ -53,7 +53,7 @@ export default {
     content: "";
     display: block;
     width: 100px;
-    height: 3px;
+    height: 2px;
     margin: 24px auto;
     background: gray;
 }

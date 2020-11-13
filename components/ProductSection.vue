@@ -118,7 +118,6 @@ export default {
         height: 100%;
         width: 100%!important;
         padding-bottom: 80px;
-        border-bottom:  2px inset #86d0c1!important;
     }
 }
 </style>

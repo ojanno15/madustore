@@ -22,7 +22,6 @@ export default {
     background-color: snow;
     text-align: center;
     box-shadow: 0 0 16px lightgray;
-    padding: 0;
 }
 .patent {
     padding-top: 15px;

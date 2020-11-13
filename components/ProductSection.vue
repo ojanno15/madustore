@@ -103,8 +103,8 @@ export default {
     font-weight: 700;
 }
 .card-img-top {
-    width: 200px;
-    height: 210px;
+    width: 220px!important;
+    height: 220px!important;
     border-radius: 300px;
     margin: 0px auto;
     object-fit: cover;

@@ -5,7 +5,7 @@
     <AboutSection/>
     <ProductSection/>
     <TestimoniSection/>
-    <GallerySection/>
+    <BenefitsSection/>
     <FooterSection/>
   </div>
 </template>
@@ -16,7 +16,7 @@ import Jumbotron from '~/components/JumbotronSection.vue'
 import About from '~/components/AboutSection.vue'
 import Product from '~/components/ProductSection.vue'
 import Testimoni from '~/components/TestimoniSection.vue'
-import Gallery from '~/components/GallerySection.vue'
+import Benefits from '~/components/BenefitsSection.vue'
 import Footer from '~/components/FooterSection.vue'
 export default {
   components: {
@@ -25,12 +25,15 @@ export default {
     AboutSection: About,
     ProductSection: Product,
     TestimoniSection: Testimoni,
-    GallerySection: Gallery,
+    BenefitsSection: Benefits,
     FooterSection: Footer,
   }
 }
 </script>
 <style>
+*{
+  height: auto!important;
+}
 body {
   background-color: white!important;
 }

@@ -5,31 +5,35 @@
                 <div class="container">
                     <div class="card-content row">
                         <div class="card-content-middle">
-                        <img src="../assets/images/madu2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title-three">Madu Multiflora 1kg</h3>
-                            <p class="card-text">Rp80.000</p>
-                        </div>
+                            <img src="../assets/images/madu2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title-three">Madu Multiflora 1kg</h3>
+                                <p class="card-text">Rp80.000</p>
+                                <a class="btn" href="https://wa.me/6281331644952" target="_blank">Beli Sekarang</a>
+                            </div>
                         </div>
                         <div class="card-content-middle">
-                        <img src="../assets/images/madu1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title-one">Madu Multiflora 500g</h3>
-                            <p class="card-text">Rp45.000</p>
-                        </div>
+                            <img src="../assets/images/madu1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title-one">Madu Multiflora 500g</h3>
+                                <p class="card-text">Rp45.000</p>
+                                <a class="btn" href="https://wa.me/6281331644952" target="_blank">Beli Sekarang </a>
+                            </div>
                         </div>
                         <div class="card-content-middle">
                             <img src="../assets/images/madu3.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h3 class="card-title-two">Madu Sarang 500g</h3>
                                 <p class="card-text">Rp60.000</p>
+                                <a class="btn" href="https://wa.me/6281331644952" target="_blank">Beli Sekarang </a>
                             </div>
                         </div>
                         <div class="card-content-middle">
-                        <img src="../assets/images/madu4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title-three">Madu Sarang 250g</h3>
-                            <p class="card-text">Rp35.000</p>
+                            <img src="../assets/images/madu4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title-three">Madu Sarang 250g</h3>
+                                <p class="card-text">Rp35.000</p>
+                                <a class="btn" href="https://wa.me/6281331644952" target="_blank">Beli Sekarang </a>
                         </div>
                     </div>
                 </div>
@@ -56,27 +60,31 @@ export default {
     padding-top: 80px;
 
 }
+.card-title{
+    letter-spacing: 1px;
+}
 .card-title::after {
     content: "";
     display: block;
     width: 100px;
     height: 2px;
     margin: 24px auto;
-    background: #86d0c1;
+    background: gray;
 }
 .card-content {
     display: flex;
     justify-content: center;
-    padding-top: 50px!important;
+    padding-top: 20px!important;
 }
 .card-content-middle {
-    width: 14rem!important;
+    width: 15rem!important;
     margin: 10px 6px;
     text-align: center;
     border: 1px solid lightgray;
     border-radius: 280px 280px 20px 20px;
     box-shadow: 0 2px 6px 0 rgba(0,0,0,.2);
     cursor: pointer;
+    padding-bottom: 20px;
     
 }
 .card-content-middle:hover {
@@ -85,6 +93,7 @@ export default {
 .card-body {
     background-color: snow;
     border-radius: 0px 0px 20px 20px;
+    padding: 0;
 }
 .card-title {
     height: 120px;

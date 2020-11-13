@@ -46,7 +46,8 @@ body {
     }
 }
 .title-content {
-  color: black!important;
+    color: black!important;
+    letter-spacing: 1px;
 }
 .btn {
     background-color:#f5cd79;
@@ -70,6 +71,7 @@ body {
 }
 .lead-container {
     font-weight: 200;
+    letter-spacing: 1px;
 }
 .lead-container-hadist {
     font-style: italic;

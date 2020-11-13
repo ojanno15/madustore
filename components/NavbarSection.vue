@@ -20,8 +20,8 @@
                         <li class="nav-item"><a class="nav-link mr-4" @click="toTestimoniElement">
                             Testimoni
                         </a></li>
-                        <li class="nav-item"><a class="nav-link mr-4" @click="toGalleryElement">
-                            Galleri
+                        <li class="nav-item"><a class="nav-link mr-4" @click="toBenefitsElement">
+                            Manfaat Madu
                         </a></li>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ export default {
             aboutElement: "",
             productElement: "",
             testimoniElement: "",
-            galleryElement: "",
+            benefitsElement: "",
         };
     },
     mounted() {
@@ -46,7 +46,7 @@ export default {
         this.aboutElement = document.getElementById("about");
         this.productElement = document.getElementById("product");
         this.testimoniElement = document.getElementById("testimoni");
-        this.galleryElement = document.getElementById("gallery");
+        this.benefitsElement = document.getElementById("benefits");
     },
     methods: {
         hideMenu() {
@@ -85,8 +85,8 @@ export default {
             });
             this.hideMenu()
         },
-        toGalleryElement() {
-            this.galleryElement.scrollIntoView({
+        toBenefitsElement() {
+            this.benefitsElement.scrollIntoView({
                 behavior: "smooth",
                 block: "start",
                 inline: "nearest",
@@ -101,10 +101,10 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
 .navbar {
     background-color:  snow;
-    cursor: pointer!important;
     width: 100%!important;
     margin: 0px auto;
     box-shadow: 0 0 16px lightgray;
+    letter-spacing: 1px;
 }
 .navigation-bar {
     display: flex;
@@ -112,6 +112,7 @@ export default {
 }
 .navbar-dark .navbar-brand {
     color: #495057;
+    cursor: pointer;
 }
 .navbar-dark .navbar-nav .nav-link {
     cursor: pointer!important;

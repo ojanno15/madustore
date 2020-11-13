@@ -1,12 +1,12 @@
 <template>
     <section class="about" id="about">
         <div class="title-section">
-            <h3 class="title-about">Proses Panen Madu Kami</h3>
+            <h3 class="title-about">Ayo Kunjungi Peternakan Kami!</h3>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/E885tzgYvKA" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wW8W76OEHiE" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -30,13 +30,16 @@ export default {
     border-bottom-right-radius: 30%;
     height: 21.875rem;
 }
+.title-about {
+    letter-spacing: 1px;
+}
 .title-about::after {
     content: "";
     display: block;
     width: 100px;
     height: 2px;
     margin: 24px auto;
-    background: #86d0c1;
+    background: gray;
 }
 .row {
     text-align: center;
@@ -44,7 +47,6 @@ export default {
 .title-section {
     text-align: center;
     width: 100%!important;
-    padding-bottom: 50px;
 }
 iframe {
     width: 70%!important;

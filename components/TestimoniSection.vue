@@ -1,7 +1,7 @@
 <template>
     <section class="testimoni" id="testimoni">
         <div class="title-section">
-            <h3 class="title-testimoni">Apa Kata Mereka yang Sudah Merasakan Madu Kami</h3>
+            <h3 class="title-testimoni">Sudah Merasakan Madu Sarang Kami?</h3>
         </div>
         <div class="container">
             <div class="row">
@@ -27,13 +27,16 @@ export default {
     padding-bottom: 80px;
     margin: 0px auto;
 }
+.title-testimoni {
+    letter-spacing: 1px;
+}
 .title-testimoni::after {
     content: "";
     display: block;
     width: 100px;
     height: 2px;
     margin: 24px auto;
-    background: #86d0c1;
+    background: gray;
 }
 .row {
     text-align: center;
@@ -48,6 +51,7 @@ iframe {
     border-radius: 10px;
     border: transparent;
     box-shadow: 0px 0px 55px #FBD38D;
+    margin-top: 60px;
 }
 @media(max-width: 678px){
     .testimoni {

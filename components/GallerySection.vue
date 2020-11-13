@@ -68,7 +68,7 @@ export default {
 @media(max-width: 678px){
     .gallery {
         width: 100%!important;
-        height: 60rem!important;
+        height: 50rem!important;
     }
     .card {
         width: 210px!important;

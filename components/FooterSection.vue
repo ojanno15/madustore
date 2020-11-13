@@ -41,7 +41,7 @@
             </div>
         </section> -->
         <section class="patent">
-            <p>Copyright ©2020 madustore.id</p>
+            <p>Copyright ©2020 Maduku.Store</p>
         </section>
     </footer>
     

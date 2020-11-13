@@ -3,7 +3,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbarSupportedContent">
             <div class="container">
                 <a class="navbar-brand" @click="toLandingPageElement"> 
-                    MaduStore.id
+                    Maduku.Store
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
@@ -106,9 +106,6 @@ export default {
     margin: 0px auto;
     box-shadow: 0 0 16px lightgray;
 }
-.navbar-brand {
-    text-shadow: 1px 1px#FBD38D;
-}
 .navigation-bar {
     display: flex;
     justify-content: space-around;
@@ -119,9 +116,11 @@ export default {
 .navbar-dark .navbar-nav .nav-link {
     cursor: pointer!important;
     color: #495057;
-    text-shadow: 1px 1px#FBD38D;
 }
-/* .navbar-dark .navbar-nav .nav-link:hover {
+.navbar-brand:hover {
+    color: lightgray!important;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
     color: lightgrey;
-} */
+}
 </style>

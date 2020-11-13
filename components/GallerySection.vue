@@ -3,10 +3,7 @@
         <div class="card-gallery">
             <h3 class="gallery-title">Galleri Kami</h3>
                 <div class="container">
-                    <div class="card-content row">
-                    <div class="card">
-                        <img src="../assets/images/madu1.jpg" class="card-img" alt="...">
-                    </div>
+                    <div class="card-images row">
                     <div class="card">
                         <img src="../assets/images/madu6.jpg" class="card-img" alt="...">
                     </div>
@@ -34,7 +31,7 @@ export default {
 <style>
 .gallery {
     width: 100%!important;
-    height: 50rem!important;
+    height: 36rem!important;
     text-align: center;
     background-color:#ffffff;
     font-weight: 400px;
@@ -49,7 +46,7 @@ export default {
     margin: 24px auto;
     background: #86d0c1;
 }
-.card-content {
+.card-images {
     padding-top: 80px;
     display: flex!important;
     justify-content: center;
@@ -66,6 +63,7 @@ export default {
     height: 200px;
     border-radius: 300px;
     margin: 0px auto;
+    object-fit: cover;
 }
 @media(max-width: 678px){
     .gallery {

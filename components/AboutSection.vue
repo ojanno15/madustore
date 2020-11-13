@@ -22,7 +22,7 @@ export default {
 <style>
 .about {
     width: 100%!important;
-    padding-top: 40px;
+    padding-top: 60px;
     margin: 0px auto;
     margin-bottom: 400px!important;
     background-color: #FBD38D;
@@ -44,6 +44,7 @@ export default {
 .title-section {
     text-align: center;
     width: 100%!important;
+    padding-bottom: 50px;
 }
 iframe {
     width: 70%!important;

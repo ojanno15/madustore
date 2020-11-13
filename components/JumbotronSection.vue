@@ -2,7 +2,7 @@
     <div>
         <div class="sm text-center mt-5 jumbotron-fluid">
             <div class="title">
-                <h1 class="title-content">MaduStore.id</h1>
+                <h1 class="title-content">Maduku.Store</h1>
                 <h3 class="lead-container">
                     Madu sarang adalah madu Murni yang dipanen beserta sarangnya, jadi kandungan didalamnya 100% terjaga 
                 </h3>
@@ -10,7 +10,7 @@
                 <p class="lead-container-hadist">
                     "Madu adalah penyembuh bagi segala penyakit dan Al-Qur'an adalah penyembuh terhadap apa yang ada di dalam dada. Maka bagi kalian terdapat dua penyembuhan; Al-Qur'an dan madu." (HR. Ibnu Majah, 3452 dari hadist Ibnu Mas'ud).
                 </p>
-                <a class="btn" href="https://wa.me/6282362574353" target="_blank">Beli Sekarang </a>
+                <a class="btn" href="https://wa.me/6281331644952" target="_blank">Beli Sekarang </a>
             </div>
         </div>      
     </div>

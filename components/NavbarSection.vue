@@ -20,7 +20,7 @@
                         Testimoni
                     </a></li>
                     <li class="nav-item"><a class="nav-link mr-4" @click="toBenefitsElement">
-                        Manfaat Madu
+                        Pemesanan
                     </a></li>
                 </div>
             </div>

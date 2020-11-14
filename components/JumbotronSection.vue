@@ -1,16 +1,17 @@
 <template>
     <div>
-        <div class="sm text-center mt-5 jumbotron-fluid">
-            <div class="title">
+        <div class="sm text-center jumbotron-fluid">
+            <div class="title-container">
                 <h3 class="lead-container">
-                    Madu sarang adalah madu Murni yang dipanen beserta sarangnya, jadi kandungan didalamnya 100% terjaga 
+                    Madu Sarang adalah madu murni yang dipanen beserta sarangnya, jadi kandungan didalamnya 100% terjaga 
                 </h3>
-                <br>
+            </div>
+            <div class="hadist">
                 <p class="lead-container-hadist">
                     "Madu adalah penyembuh bagi segala penyakit dan Al-Qur'an adalah penyembuh terhadap apa yang ada di dalam dada. Maka bagi kalian terdapat dua penyembuhan; Al-Qur'an dan madu." (HR. Ibnu Majah, 3452 dari hadist Ibnu Mas'ud).
                 </p>
-                <a class="btn button-buy" href="https://wa.me/6281331644952" target="_blank">Beli Sekarang </a>
             </div>
+            <a class="btn button-buy" href="https://wa.me/6281331644952" target="_blank">Beli Sekarang </a>
         </div>      
     </div>
 </template>
@@ -25,56 +26,68 @@ body {
     font-family: Nunito,serif!important;
 }
 .jumbotron-fluid {
-  margin: 0;
-  width: 100%!important;
-  display: flex;
-  justify-content: space-around;
-  background-image: linear-gradient(white,#FBD38D);
-  margin: 0px auto;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  /* border-bottom:  2px inset #86d0c1!important; */
-  }
-.title {
-    padding: 0 50px 0 50px;
-  }
-.title-content {
+    margin: 0;
+    width: 100%!important;
+    display: block;
+    justify-content: space-around;
+    background-image: linear-gradient(#fee996,#fee274);
+    margin: 0px auto;
+    padding-top: 100px;
+    color: white;
+    /* padding-bottom: 60px; */
+    /* border-bottom:  2px inset #86d0c1!important; */
+}
+.title-container {
+    margin: 0 auto;
+    width: 48%;
+}
+.title-container-content {
     font-weight: 800;
 }
-
-@media (max-width: 768px) {
-    .font-weight-bold   {
-        font-size: 36px;
-    }
-}
-.btn {
-    background-color:#f5cd79;
-    border-radius: 10px!important;
-    margin-top: 20px;
-    box-shadow: 3px 3px 3px #FBD38D;
-}
 .button-buy {
-    margin-top: 80px;
+    margin-top: 30px;
+    color: #fee274;
+    background-color: white;
+    font-size: 16px;
+    padding: 8px 16px;
 }
 .btn:hover {
     color: snow!important;
-    background-color: #FBD38D;
+    background-color: #ffdd57;
 }
-@media(min-width: 678px){
-    .title {
-        width: 60%!important;
-        text-decoration: none!important;
-        color: black!important;
-        height: 90vh;
-        text-align: center;
-        padding-top: 50px!important;
-    }
+.hadist {
+    margin-top: 16px !important;
+    width: 50%;
+    margin: 0 auto;
 }
+
 .lead-container {
-    font-weight: 200;
+    font-weight: 500;
     letter-spacing: 1px;
 }
 .lead-container-hadist {
     font-style: italic;
+}
+@media(max-width: 678px){
+    .jumbotron-fluid {
+        /* margin-top: 25px !important; */
+    }
+    .title-container {
+        width: 100% !important;
+        text-decoration: none!important;
+        text-align: center;
+        padding: 25px 16px;
+    }
+    .lead-container {
+        font-size: 24px;
+    }
+    .font-weight-bold   {
+        font-size: 26px;
+    }
+    .hadist {
+        margin-top: 16px !important;
+        padding: 0px 16px;
+        width: 100%;
+    }
 }
 </style>

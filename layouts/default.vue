@@ -59,4 +59,13 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+.btn {
+  background-color:#fee274;
+  border-radius: 6px!important;
+  margin-top: 20px;
+  color: white;
+  font-size: 14px;
+  /* box-shadow: 3px 3px 3px #fee274; */
+}
 </style>

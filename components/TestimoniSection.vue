@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/s3Z0GeyH42U" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/s3Z0GeyH42U" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -24,7 +24,7 @@ export default {
     width: 100%!important;
     padding-top: 80px;
     background-color: #ffffff;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
     margin: 0px auto;
 }
 .title-testimoni {
@@ -36,7 +36,7 @@ export default {
     width: 100px;
     height: 2px;
     margin: 24px auto;
-    background: gray;
+    background: #fee274;
 }
 .row {
     text-align: center;
@@ -48,9 +48,11 @@ export default {
 iframe {
     width: 70%!important;
     height: 400px!important;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    border-radius: 0px;
     border: transparent;
-    box-shadow: 0px 0px 55px #FBD38D;
+    /* box-shadow: 0px 0px 55px #fee274; */
+    box-shadow: unset;
     margin-top: 60px;
 }
 @media(max-width: 678px){

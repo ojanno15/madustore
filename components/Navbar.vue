@@ -1,6 +1,6 @@
 <template>
     <div class="container" id="landing-page">
-        <nav class="navbar navbar-expand-lg fixed-top" id="navbarSupportedContent">
+        <nav class="navbar navbar-expand-lg fixed-top " id="navbarSupportedContent">
             <div class="container">
                 <a class="navbar-brand" @click="toLandingPageElement"> 
                     Maduku.store
@@ -102,7 +102,7 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
 .navbar {
-    background-color: snow!important;
+    background-color: #ffefae!important;
     width: 100%!important;
     margin: 0px auto;
     box-shadow: 0 0 16px lightgray;

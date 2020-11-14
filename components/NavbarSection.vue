@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+  <nav :class="`navbar navbar-expand-lg navbar-light bg-light fixed-top ${fontColorNavbar}`" id="navbar">
     <div class="container">
         <a class="navbar-brand" @click="toNavbarElement"> 
           Maduku.store
@@ -37,6 +37,7 @@ export default {
             productElement: "",
             testimoniElement: "",
             bookingElement: "",
+            fontColorNavbar: "hide"
         };
     },
     mounted() {
@@ -46,7 +47,20 @@ export default {
         this.testimoniElement = document.getElementById("testimoni");
         this.bookingElement = document.getElementById("booking");
     },
+    created () {
+        window.addEventListener('scroll', this.handleScroll);
+    },
+    destroyed () {
+        window.removeEventListener('scroll', this.handleScroll);
+    },
     methods: {
+        handleScroll() {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                this.fontColorNavbar = 'show'
+            } else {
+                this.fontColorNavbar = 'hide'
+            }
+        },
         hideMenu() {
             let menuContainer = document.getElementById('navbarNavAltMarkup')
             menuContainer.classList.remove("show")
@@ -97,20 +111,27 @@ export default {
 
 <style>
 .navbar {
-  background-color: snow!important;
+  background-color: #fee996!important;
   width: 100%!important;
   margin: 0px auto;
-  box-shadow: 0 0 16px lightgray;
+  color: #8b8b8b!important;
+  /* box-shadow: 0 0 16px lightgray; */
   letter-spacing: 1px;
 }
 .navbar-brand {
   cursor: pointer;
-  color: #495057!important;
+  color: unset !important;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: #495057!important;
+  color: unset;
 }
 .navbar-light .navbar-nav .nav-link:hover {
   cursor: pointer;
+}
+.show {
+    display: block !important;
+}
+.hide {
+    display: none !important;
 }
 </style>

@@ -28,7 +28,7 @@
                             <a class="btn" href="https://wa.me/6281331644952" target="_blank">Beli Sekarang </a>
                         </div>
                         </div> 
-                        <div class="card-content-middle">
+                        <div class="card-content-middle last-card">
                         <img src="../assets/images/madu2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h3 class="card-title-three">Madu Multiflora 1kg</h3>
@@ -68,19 +68,20 @@ export default {
     width: 100px;
     height: 2px;
     margin: 24px auto;
-    background: gray;
+    background: #fee274;
 }
 .card-content {
     display: flex;
     justify-content: center;
     padding-top: 20px!important;
+    margin-top: 156px;
 }
 .card-content-middle {
     width: 15rem!important;
     margin: 10px 6px;
     text-align: center;
-    border: 1px solid lightgray;
-    border-radius: 280px 280px 20px 20px;
+    /* border: 1px solid lightgray; */
+    /* border-radius: 280px 280px 20px 20px; */
     box-shadow: 0 2px 6px 0 rgba(0,0,0,.2);
     cursor: pointer;
     padding-bottom: 20px;
@@ -90,16 +91,14 @@ export default {
     color: lightgray;
 }
 .card-body {
-    background-color: snow;
     border-radius: 0px 0px 20px 20px;
     padding: 20px;
 }
 .card-title {
-    height: 120px;
 }
 .card-text {
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 400;
 }
 .card-img-top {
     width: 220px!important;
@@ -107,16 +106,25 @@ export default {
     border-radius: 300px;
     margin: 0px auto;
     object-fit: cover;
+    margin-top: -100px;
 }
 .card-title-one, .card-title-two, .card-title-three {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
 }
 @media(max-width: 678px){
     .our-product {
         height: 100%;
         width: 100%!important;
-        padding-bottom: 80px;
+        padding-bottom: 0px !important;
+    }
+}
+@media(max-width: 990px){
+    .card-content-middle {
+        margin-bottom: 130px;
+    }
+    .last-card {
+        margin-bottom: 0px;
     }
 }
 </style>

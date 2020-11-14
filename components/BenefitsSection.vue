@@ -36,10 +36,13 @@ export default {
 </script>
 
 <style>
+.benefits-section {
+    width: 700px;
+    margin: 0 auto;
+}
 .benefits {
     width: 70%;
     margin-left: 15%;
-    margin-top: 80px;
     text-align: center;
     padding-top: 70px;
 }
@@ -50,7 +53,7 @@ export default {
     letter-spacing: 2px;
 }
 .benefits-content {
-    font-weight: 800;
+    font-weight: 300;
     font-size: 18px;
     margin-top: 50px;
     letter-spacing: 1px;
@@ -68,9 +71,9 @@ export default {
     content: "";
     display: block;
     width: 100px;
-    height: 2px;
+    height: 3px;
     margin: 24px auto;
-    background: gray;
+    background: #fee274;
 }
 .img-bottom-cursor {
     width: 50px!important;
@@ -84,6 +87,17 @@ export default {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
+}
+
+@media(max-width: 678px) {
+    .benefits-section {
+        width: 100%;
+        padding: 0px 16px;
+    }
+    .benefits {
+        margin-left: 0px !important;
+        width: 100%;
+    }
 }
 @-webkit-keyframes bounce {
   0%, 100% {

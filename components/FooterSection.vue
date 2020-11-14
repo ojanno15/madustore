@@ -19,15 +19,17 @@ export default {
     height: 50px!important;
     width: 100%!important;
     margin-top: 90px;
-    background-color: snow;
+    background-color: #f1f1f1;
     text-align: center;
-    box-shadow: 0 0 16px lightgray;
+    /* box-shadow: 0 0 16px lightgray; */
 }
 .patent {
     padding-top: 15px;
-    height: 50px;
     color: gray;
     letter-spacing: 1px;
+}
+p {
+    margin-bottom: 0px !important;
 }
 
 </style>

@@ -11,7 +11,7 @@
             <div class="collapse  navbar-collapse mr-4" id="navbarNavAltMarkup">
                 <div class="navbar-nav  ml-auto ">
                     <li class="nav-item"><a class="nav-link mr-4" @click="toAboutElement">
-                        Proses Kami
+                        Tentang Kami
                     </a></li>
                     <li class="nav-item"><a class="nav-link mr-4" @click="toProductElement">
                         Produk Kami

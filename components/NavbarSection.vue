@@ -1,42 +1,38 @@
 <template>
-    <div class="container" id="landing-page">
-        <nav class="navbar navbar-expand-lg fixed-top" id="navbarSupportedContent">
-            <div class="container">
-                <a class="navbar-brand" @click="toLandingPageElement"> 
-                    Maduku.store
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                    </span> 
-                </button>
-                <div class="collapse  navbar-collapse mr-4" id="navbarNavAltMarkup">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link mr-4" @click="toAboutElement">
-                            Proses Kami <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link mr-4" @click="toProductElement">
-                            Product
-                        </a></li>
-                        <li class="nav-item"><a class="nav-link mr-4" @click="toTestimoniElement">
-                            Testimoni
-                        </a></li>
-                        <li class="nav-item"><a class="nav-link mr-4" @click="toBenefitsElement">
-                            Manfaat Madu
-                        </a></li>
-                    </ul> 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+    <div class="container">
+        <a class="navbar-brand" @click="toNavbarElement"> 
+          Maduku.store
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span> 
+            </button>
+            <div class="collapse  navbar-collapse mr-4" id="navbarNavAltMarkup">
+                <div class="navbar-nav  ml-auto ">
+                    <li class="nav-item"><a class="nav-link mr-4" @click="toAboutElement">
+                        Proses Kami
+                    </a></li>
+                    <li class="nav-item"><a class="nav-link mr-4" @click="toProductElement">
+                        Produk Kami
+                    </a></li>
+                    <li class="nav-item"><a class="nav-link mr-4" @click="toTestimoniElement">
+                        Testimoni
+                    </a></li>
+                    <li class="nav-item"><a class="nav-link mr-4" @click="toBenefitsElement">
+                        Manfaat Madu
+                    </a></li>
                 </div>
             </div>
-        </nav>
-    </div>
+        </div>
+</nav>
 </template>
 
 <script>
 export default {
-    data() {
+  data() {
         return {
-            landingpageElement: "",
+            navbarElement: "",
             aboutElement: "",
             productElement: "",
             testimoniElement: "",
@@ -44,7 +40,7 @@ export default {
         };
     },
     mounted() {
-        this.landingPageElement = document.getElementById("landing-page");
+        this.navbarElement = document.getElementById("navbar");
         this.aboutElement = document.getElementById("about");
         this.productElement = document.getElementById("product");
         this.testimoniElement = document.getElementById("testimoni");
@@ -55,8 +51,8 @@ export default {
             let menuContainer = document.getElementById('navbarNavAltMarkup')
             menuContainer.classList.remove("show")
         },
-        toLandingPageElement() {
-            this.landingPageElement.scrollIntoView({
+        toNavbarElement() {
+            this.navbarElement.scrollIntoView({
                 behavior: "smooth",
                 block: "start",
                 inline: "nearest",
@@ -100,44 +96,21 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
 .navbar {
-    background-color: snow!important;
-    width: 100%!important;
-    margin: 0px auto;
-    box-shadow: 0 0 16px lightgray;
-    letter-spacing: 1px;
+  background-color: snow!important;
+  width: 100%!important;
+  margin: 0px auto;
+  box-shadow: 0 0 16px lightgray;
+  letter-spacing: 1px;
 }
-/* .navbar-dark .navbar-toggler {
-    border: 2px solid lightgray;
-    color: lightgray!important;
-} */
-.navbar-toggler-icon {
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-    content: "";
-    background: no-repeat center center;
-    background-size: 100% 100%;
-
-}   
-.navigation-bar {
-    display: flex;
-    justify-content: space-around;
+.navbar-brand {
+  cursor: pointer;
+  color: #495057!important;
 }
-.navbar-dark .navbar-brand {
-    color: #495057;
-    cursor: pointer;
+.navbar-light .navbar-nav .nav-link {
+  color: #495057!important;
 }
-.navbar-dark .navbar-nav .nav-link {
-    cursor: pointer!important;
-    color: #495057;
-}
-.navbar-brand:hover {
-    color: lightgray!important;
-}
-.navbar-dark .navbar-nav .nav-link:hover {
-    color: lightgrey;
+.navbar-light .navbar-nav .nav-link:hover {
+  cursor: pointer;
 }
 </style>

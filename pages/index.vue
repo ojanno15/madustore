@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NavbarNew/>
+    <NavbarSection/>
     <JumbotronSection/>
     <AboutSection/>
     <ProductSection/>
@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Navbar from '~/components/NavbarNew.vue'
+import Navbar from '~/components/NavbarSection.vue'
 import Jumbotron from '~/components/JumbotronSection.vue'
 import About from '~/components/AboutSection.vue'
 import Product from '~/components/ProductSection.vue'
@@ -20,7 +20,7 @@ import Benefits from '~/components/BenefitsSection.vue'
 import Footer from '~/components/FooterSection.vue'
 export default {
   components: {
-    NavbarNew: Navbar,
+    NavbarSection: Navbar,
     JumbotronSection: Jumbotron,
     AboutSection: About,
     ProductSection: Product,
@@ -31,10 +31,4 @@ export default {
 }
 </script>
 <style>
-/* *{
-  height: auto!important;
-}
-body {
-  background-color: white!important;
-} */
 </style>

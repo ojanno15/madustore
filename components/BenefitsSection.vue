@@ -19,7 +19,9 @@
             <p class="benefits-button-buy">
                 CASH ON DELIVERY (COD) JUGA BISA, JANGAN DIBAYAR SAMPAI BARANG TIBA!
             </p>
-            <br>
+            <div>
+                <img src="../assets/images/Downpict.png" class="img-bottom-cursor" alt="">
+            </div>
             <div class="benefits-button">
                 <a class="btn benefits-button" id="booking" href="https://wa.me/6281331644952" target="_blank">Pesan Sekarang</a>
             </div>
@@ -69,6 +71,10 @@ export default {
     height: 2px;
     margin: 24px auto;
     background: gray;
+}
+.img-bottom-cursor {
+    width: 40px;
+    height: 40px;
 }
 
 

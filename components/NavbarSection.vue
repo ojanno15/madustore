@@ -17,7 +17,7 @@
                         Produk Kami
                     </a></li>
                     <li class="nav-item"><a class="nav-link mr-4" @click="toTestimoniElement">
-                        Testimoni
+                        Ulasan
                     </a></li>
                     <li class="nav-item"><a class="nav-link mr-4" @click="toBookingElement">
                         Pemesanan

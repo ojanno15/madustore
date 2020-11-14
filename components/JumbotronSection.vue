@@ -70,7 +70,7 @@ body {
 }
 @media(max-width: 678px){
     .jumbotron-fluid {
-        /* margin-top: 25px !important; */
+        padding-top: 50px !important;
     }
     .title-container {
         width: 100% !important;

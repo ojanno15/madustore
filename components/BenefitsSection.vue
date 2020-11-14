@@ -19,7 +19,7 @@
             <p class="benefits-button-buy">
                 CASH ON DELIVERY (COD) JUGA BISA, JANGAN DIBAYAR SAMPAI BARANG TIBA!
             </p>
-            <div>
+            <div class="animated bounce">
                 <img src="../assets/images/Downpict.png" class="img-bottom-cursor" alt="">
             </div>
             <div class="benefits-button">
@@ -73,19 +73,38 @@ export default {
     background: gray;
 }
 .img-bottom-cursor {
-    width: 40px;
-    height: 40px;
+    width: 50px!important;
 }
-
-
-
-
-
-
-
-
-
-
+.animated {
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes bounce {
+  0%, 100% {
+    -webkit-transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-5px);
+  }
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
 /* .benefits {
     text-align: center!important;
     width: 100%important;

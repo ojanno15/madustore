@@ -19,7 +19,7 @@
                     <li class="nav-item"><a class="nav-link mr-4" @click="toTestimoniElement">
                         Testimoni
                     </a></li>
-                    <li class="nav-item"><a class="nav-link mr-4" @click="toBenefitsElement">
+                    <li class="nav-item"><a class="nav-link mr-4" @click="toBookingElement">
                         Pemesanan
                     </a></li>
                 </div>
@@ -36,7 +36,7 @@ export default {
             aboutElement: "",
             productElement: "",
             testimoniElement: "",
-            benefitsElement: "",
+            bookingElement: "",
         };
     },
     mounted() {
@@ -44,7 +44,7 @@ export default {
         this.aboutElement = document.getElementById("about");
         this.productElement = document.getElementById("product");
         this.testimoniElement = document.getElementById("testimoni");
-        this.benefitsElement = document.getElementById("benefits");
+        this.bookingElement = document.getElementById("booking");
     },
     methods: {
         hideMenu() {
@@ -83,8 +83,8 @@ export default {
             });
             this.hideMenu()
         },
-        toBenefitsElement() {
-            this.benefitsElement.scrollIntoView({
+        toBookingElement() {
+            this.bookingElement.scrollIntoView({
                 behavior: "smooth",
                 block: "start",
                 inline: "nearest",

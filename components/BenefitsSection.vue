@@ -21,7 +21,7 @@
             </p>
             <br>
             <div class="benefits-button">
-                <a class="btn benefits-button" href="https://wa.me/6281331644952" target="_blank">Pesan Sekarang</a>
+                <a class="btn benefits-button" id="booking" href="https://wa.me/6281331644952" target="_blank">Pesan Sekarang</a>
             </div>
         </div>
     </div>

@@ -5,37 +5,37 @@
                 <div class="container">
                     <div class="card-content row">
                         <div class="card-content-middle">
-                            <img src="../assets/images/madu2.jpg" class="card-img-top" alt="...">
+                            <img src="../assets/images/madu4.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h3 class="card-title-three">Madu Multiflora 1kg</h3>
-                                <p class="card-text">Rp80.000</p>
-                                <a class="btn" href="https://wa.me/6281331644952" target="_blank">Beli Sekarang</a>
-                            </div>
-                        </div>
-                        <div class="card-content-middle">
-                            <img src="../assets/images/madu6.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title-one">Madu Multiflora 500g</h3>
-                                <p class="card-text">Rp45.000</p>
+                                <h3 class="card-title-three">Madu Sarang 250gr</h3>
+                                <p class="card-text">Rp35.000</p>
                                 <a class="btn" href="https://wa.me/6281331644952" target="_blank">Beli Sekarang </a>
-                            </div>
+                        </div>
                         </div>
                         <div class="card-content-middle">
                             <img src="../assets/images/madu3.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h3 class="card-title-two">Madu Sarang 500g</h3>
+                                <h3 class="card-title-two">Madu Sarang 500gr</h3>
                                 <p class="card-text">Rp60.000</p>
                                 <a class="btn" href="https://wa.me/6281331644952" target="_blank">Beli Sekarang </a>
                             </div>
                         </div>
-                        <div class="card-content-middle">
-                            <img src="../assets/images/madu4.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title-three">Madu Sarang 250g</h3>
-                                <p class="card-text">Rp35.000</p>
-                                <a class="btn" href="https://wa.me/6281331644952" target="_blank">Beli Sekarang </a>
+                           <div class="card-content-middle">
+                        <img src="../assets/images/madu6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title-one">Madu Multiflora 500g</h3>
+                            <p class="card-text">Rp45.000</p>
+                            <a class="btn" href="https://wa.me/6281331644952" target="_blank">Beli Sekarang </a>
                         </div>
-                    </div>
+                        </div> 
+                        <div class="card-content-middle">
+                        <img src="../assets/images/madu2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title-three">Madu Multiflora 1kg</h3>
+                            <p class="card-text">Rp80.000</p>
+                            <a class="btn" href="https://wa.me/6281331644952" target="_blank">Beli Sekarang</a>
+                        </div>
+                    </div>  
                 </div>
             </div>
         </div>

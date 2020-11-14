@@ -61,7 +61,7 @@ iframe {
         width: 100%!important;
     }
     iframe {
-        width: 70%!important;
+        width: 90%!important;
         height: 100%!important;
     }
     .testimoni-content {

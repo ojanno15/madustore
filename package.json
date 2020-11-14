@@ -1,6 +1,7 @@
 {
   "name": "madustore",
   "version": "1.0.0",
+  "homepage": "https://maduku.store",
   "private": true,
   "scripts": {
     "dev": "nuxt",

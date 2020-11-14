@@ -2,7 +2,7 @@
     <div>
         <div class="footer-container">
             <p class="patent">
-                Copyright ©2020 Maduku.Store
+                Copyright ©2020 Maduku.store
             </p>
         </div>
     </div> 

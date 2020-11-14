@@ -13,7 +13,7 @@
                             </div>
                         </div>
                         <div class="card-content-middle">
-                            <img src="../assets/images/madu1.jpg" class="card-img-top" alt="...">
+                            <img src="../assets/images/madu6.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h3 class="card-title-one">Madu Multiflora 500g</h3>
                                 <p class="card-text">Rp45.000</p>
@@ -58,7 +58,6 @@ export default {
     margin: 0px auto;
     padding-bottom: 40px;
     padding-top: 80px;
-
 }
 .card-title{
     letter-spacing: 1px;
@@ -93,7 +92,7 @@ export default {
 .card-body {
     background-color: snow;
     border-radius: 0px 0px 20px 20px;
-    padding: 0;
+    padding: 20px;
 }
 .card-title {
     height: 120px;

@@ -2,7 +2,6 @@
     <div>
         <div class="sm text-center mt-5 jumbotron-fluid">
             <div class="title">
-                <h1 class="title-content">Maduku.Store</h1>
                 <h3 class="lead-container">
                     Madu sarang adalah madu Murni yang dipanen beserta sarangnya, jadi kandungan didalamnya 100% terjaga 
                 </h3>
@@ -10,7 +9,7 @@
                 <p class="lead-container-hadist">
                     "Madu adalah penyembuh bagi segala penyakit dan Al-Qur'an adalah penyembuh terhadap apa yang ada di dalam dada. Maka bagi kalian terdapat dua penyembuhan; Al-Qur'an dan madu." (HR. Ibnu Majah, 3452 dari hadist Ibnu Mas'ud).
                 </p>
-                <a class="btn" href="https://wa.me/6281331644952" target="_blank">Beli Sekarang </a>
+                <a class="btn button-buy" href="https://wa.me/6281331644952" target="_blank">Beli Sekarang </a>
             </div>
         </div>      
     </div>
@@ -36,6 +35,9 @@ body {
   padding-bottom: 60px;
   /* border-bottom:  2px inset #86d0c1!important; */
   }
+.title {
+    padding: 0 50px 0 50px;
+  }
 .title-content {
     font-weight: 800;
 }
@@ -45,15 +47,14 @@ body {
         font-size: 36px;
     }
 }
-.title-content {
-    color: black!important;
-    letter-spacing: 1px;
-}
 .btn {
     background-color:#f5cd79;
     border-radius: 10px!important;
     margin-top: 20px;
     box-shadow: 3px 3px 3px #FBD38D;
+}
+.button-buy {
+    margin-top: 80px;
 }
 .btn:hover {
     color: snow!important;

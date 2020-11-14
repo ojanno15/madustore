@@ -5,12 +5,16 @@
                 Manfaat Madu
             </h3>
             <p class="benefits-content">
-                Terdapat 1001 manfaat dalam Madu Sarang juga Kaya akan berbagai macam vitamin, mineral, dan protein dalam sarang madu. Sarang Madu juga dapat membuat awet muda, menyuburkan masa kehamilan, penurun berat badan alami, menurunkan kolestrol jahat, melindungi fungsi hati, mempercepat penyembuhan luka, menjaga kesehatan mulut, mengobati peradangan akibat bakteri atau virus, dan juga mampu untuk meningkatkan sistem kekebalan tubuh. Lebih dari ribuan tahun yang lalu, Allah SWT mewahyukan kepada Nabi Muhammad SAW bahwa madu dapat menyembuhkan manusia dari berbagai macam penyakit. Madu digambarkan di dalam Al-Quran sebagai sumber penyembuhan: Quran Surat An-Nahl Ayat 68-69 Dalam ayat lainnya, madu juga digambarkan sebagai salah satu makanan yang ada di surga: (Quran Surat Muhammad Ayat 15).
+                Terdapat 1001 manfaat dalam Madu Sarang juga Kaya akan berbagai macam vitamin, mineral, dan protein dalam sarang madu. Sarang Madu juga dapat membuat awet muda, menyuburkan masa kehamilan, penurun berat badan alami, menurunkan kolestrol jahat, melindungi fungsi hati, mempercepat penyembuhan luka, menjaga kesehatan mulut, mengobati peradangan akibat bakteri atau virus, dan juga mampu untuk meningkatkan sistem kekebalan tubuh. 
             </p>
             <br>
-            <p class="benefits-button-buy">
-                Beli sekarang juga, klik tombol dibawah ini:
+            <p class="benefits-content">
+                Lebih dari ribuan tahun yang lalu, Allah SWT mewahyukan kepada Nabi Muhammad SAW bahwa madu dapat menyembuhkan manusia dari berbagai macam penyakit. Madu digambarkan di dalam Al-Quran sebagai sumber penyembuhan: Quran Surat An-Nahl Ayat 68-69 Dalam ayat lainnya, madu juga digambarkan sebagai salah satu makanan yang ada di surga: (Quran Surat Muhammad Ayat 15).
             </p>
+            <p class="benefits-button-buy">
+                CASH ON DELIVERY (COD) JUGA BISA, JANGAN DIBAYAR SAMPAI BARANG TIBA!
+            </p>
+            <br>
             <div class="benefits-button">
                 <a class="btn benefits-button" href="https://wa.me/6281331644952" target="_blank">Pesan Sekarang</a>
             </div>
@@ -29,7 +33,7 @@ export default {
     width: 70%;
     margin-left: 15%;
     margin-top: 80px;
-    text-align: justify;
+    text-align: center;
     padding-top: 70px;
 }
 .benefits-title,
@@ -48,6 +52,7 @@ export default {
     font-style: oblique;
     font-size: 18px;
     font-weight: 800;
+    margin-top: 40px;
 }
 .benefits-title::after {
     content: "";

@@ -1,19 +1,21 @@
 <template>
     <div class="container" id="landing-page">
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbarSupportedContent">
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbarSupportedContent">
             <div class="container">
                 <a class="navbar-brand" @click="toLandingPageElement"> 
-                    Maduku.Store
+                    Maduku.store
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
-                    </span>
+                    </span> 
                 </button>
                 <div class="collapse  navbar-collapse mr-4" id="navbarNavAltMarkup">
-                    <div class="navbar-nav  ml-auto ">
-                        <li class="nav-item"><a class="nav-link mr-4" @click="toAboutElement">
-                            Proses Kami
-                        </a></li>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link mr-4" @click="toAboutElement">
+                            Proses Kami <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
                         <li class="nav-item"><a class="nav-link mr-4" @click="toProductElement">
                             Product
                         </a></li>
@@ -23,7 +25,7 @@
                         <li class="nav-item"><a class="nav-link mr-4" @click="toBenefitsElement">
                             Manfaat Madu
                         </a></li>
-                    </div>
+                    </ul> 
                 </div>
             </div>
         </nav>
@@ -100,12 +102,26 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
 .navbar {
-    background-color:  snow;
+    background-color: snow!important;
     width: 100%!important;
     margin: 0px auto;
     box-shadow: 0 0 16px lightgray;
     letter-spacing: 1px;
 }
+/* .navbar-dark .navbar-toggler {
+    border: 2px solid lightgray;
+    color: lightgray!important;
+} */
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+
+}   
 .navigation-bar {
     display: flex;
     justify-content: space-around;

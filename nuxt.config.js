@@ -4,11 +4,11 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'maduku.store',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: 'MENJUAL MADU DENGAN SARANGNYA - PETANI MADU ASLI INDONESIA' }
     ],
     link: [
       { rel: 'stylesheet', type: 'text/css', href: 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' },
